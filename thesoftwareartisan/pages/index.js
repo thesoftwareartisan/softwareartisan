@@ -1,10 +1,12 @@
 import GlobalHead from '../components/globalhead'
 import GlobalFooter from '../components/globalfooter'
+import NavigationBar from '../components/navigationbar'
 
 export default function Home() {
   return (
     <div className="container">
       <GlobalHead/>
+      <NavigationBar/>
       <main>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
