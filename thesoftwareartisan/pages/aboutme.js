@@ -7,6 +7,7 @@ export default function AboutMe() {
         <div className="container">
             <GlobalHead/>
             <NavigationBar/>
+            
             <GlobalFooter/>
         </div>
     )

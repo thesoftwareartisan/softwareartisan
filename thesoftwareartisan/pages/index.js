@@ -8,42 +8,23 @@ export default function Home() {
       <GlobalHead/>
       <NavigationBar/>
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <div className="photo-description-list">
+        
+        <div className="photo-description-block" id="aboutme">
+          <img src="/2016-career-fair-portrait.jpg"/>
+          <div className="description-block">
+            <p>Hello, my name is Taylor Morris. I have been programming for
+            just over 10 years. In those years I've worked with C#, Java,
+            C/C++, Python, Javascript, Golang and many others. I've received
+            a B.S. Computer Science from Michigan Technological University and
+            expect to receive my M.S. Computer Science this year.</p>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/zeit/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            <p>I've worked professionally with both embedded and
+              full stack development. As a student, I have been focusing on
+              Artificial Intelligence and Machine Learning, and my Master's thesis
+              is an application of several classical classification techniques.</p>
+          </div>
+        </div>
         </div>
       </main>
       <GlobalFooter/>

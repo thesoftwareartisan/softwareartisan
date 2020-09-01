@@ -8,7 +8,7 @@
 .navbar {
   position: fixed;
   top: 0px;
-  left: 0px;
+  /* left: 0px; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -17,7 +17,9 @@
   border-bottom: thin solid var(--separator-color);
   background-color: white;
 }
-
+.blogbar {
+  padding-top: 5rem;
+}
 .logo {
   min-height: 2rem;
   justify-content: left;
@@ -25,9 +27,6 @@
   margin: .5rem;
 }
 
-.navbar .logo {
-  position: relative top left;
-}
 .navbutton {
   padding: 0 1rem;
   font-size: 1.25rem;
@@ -159,6 +158,24 @@
     margin-top: 3rem;
     flex-direction: column;
     text-align: center;
+  }
+
+  .blog-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    max-width: 800px;
+    margin-top: 3rem;
+    flex-direction: column;
+    text-align: justify;
+    
+  }
+
+  .blog-post p {
+    margin-bottom: 1rem;
+    
   }
 
   .photo-description-block {

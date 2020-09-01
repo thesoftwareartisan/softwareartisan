@@ -10,33 +10,13 @@ const navPages = [
         name: "Home",
         path: "/"
     },
-    // {
-    //     name: "Portfolio",
-    //     path: "/portfolio"
-    // },
-    // {
-    //     name: "Resume",
-    //     path: "/resume"
-    // },
-    // {
-    //     name: "Gallery",
-    //     path: "/gallery"
-    // },
-    // {
-    //     name: "Commissions",
-    //     path: "/commissions"
-    // },
-    {
-        name: "About Me",
-        path: "/aboutme"
-    },
     {
         name: "Contact",
         path: "/contact"
     },
     {
         name: "Blog",
-        path: "Blog"
+        path: "/blog"
     }
 ];
 
