@@ -4,7 +4,7 @@ import NavigationBar from "../../components/navigationbar";
 import React from 'react'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
-
+import BlogBar from "../../components/blogbar"
 
 
 export default function PostTemplate({ content, data }) {
@@ -15,6 +15,7 @@ export default function PostTemplate({ content, data }) {
       <div className="container">
         <GlobalHead/>
         <NavigationBar/>
+        <div className="blog-container">
         <main>
           <div className="blog-post">
             <h1>{frontmatter.title}</h1>
@@ -24,6 +25,8 @@ export default function PostTemplate({ content, data }) {
             <ReactMarkdown source={content} />
         </div>
         </main>
+        <BlogBar/>
+        </div>
         <GlobalFooter/>
       </div>
     )

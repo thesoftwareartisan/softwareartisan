@@ -1,6 +1,6 @@
 ---
 title: "The Software Artisan"
-date: "09-01-2020"
+date: "09-04-2020"
 ---
 An artisan is someone who is skilled in a specific trade. Different people imagine different things when picturing artisans; I think of a blacksmith. This blacksmith takes their time to render each piece to their satisfaction. In order for the end product to be good enough, it must be practical, functional, durable, and elegant.
 
